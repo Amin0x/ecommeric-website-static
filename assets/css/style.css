@@ -12559,11 +12559,91 @@ fieldset:disabled .btn {
   }
 }
 
-/* line 6, ../ecommeric-website-static/scss/core.scss */
+/* line 2, ../ecommeric-website-static/scss/_header.scss */
+.top-nav {
+  position: relative;
+  padding-bottom: 1.8rem;
+  padding-top: 0.5rem;
+  background-color: #131010;
+}
+
+/* line 8, ../ecommeric-website-static/scss/_header.scss */
+.top-nav .logo {
+  height: 80px;
+  margin-left: 0.5rem;
+}
+
+/* line 15, ../ecommeric-website-static/scss/_header.scss */
+.top-nav .main-menu .main-menu-item {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+/* line 21, ../ecommeric-website-static/scss/_header.scss */
+.top-nav .main-menu .main-menu-item a {
+  padding: 0.3rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #eeeaea;
+  background-color: #d65829;
+}
+
+/* line 31, ../ecommeric-website-static/scss/_header.scss */
+.top-nav .auth-menu {
+  margin: 0 auto 0 1rem;
+}
+
+/* line 2, ../ecommeric-website-static/scss/_core.scss */
+body {
+  margin: 0;
+  font-family: Noto Naskh Arabic,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 14, ../ecommeric-website-static/scss/_core.scss */
 .page_warrper {
   background-color: #fff;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1900px) {
+  /* line 21, ../ecommeric-website-static/scss/_core.scss */
+  .content-warrper {
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  /* line 29, ../ecommeric-website-static/scss/_core.scss */
+  .content-warrper {
+    max-width: 1901px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/* line 36, ../ecommeric-website-static/scss/_core.scss */
+.product-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* line 43, ../ecommeric-website-static/scss/_core.scss */
+.product-list .product-card {
+  padding: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
