@@ -12594,6 +12594,101 @@ fieldset:disabled .btn {
   margin: 0 auto 0 1rem;
 }
 
+/* line 1, ../ecommeric-website-static/scss/_footer.scss */
+.am_footer {
+  font-size: inherit;
+}
+
+/* line 1, ../ecommeric-website-static/scss/_product_list.scss */
+.am_products_box {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* line 9, ../ecommeric-website-static/scss/_product_list.scss */
+.am_products_box .am_product_list .am_card_box {
+  width: 16.5%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+}
+
+/* line 16, ../ecommeric-website-static/scss/_product_list.scss */
+.am_products_box .am_product_list .am_card_box .am_card .add_to_cart {
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #4ead00;
+  color: #fff;
+  outline: none;
+  border: 1px solid #4ead00;
+  animation: all .200s ease-in;
+}
+
+/* line 27, ../ecommeric-website-static/scss/_product_list.scss */
+.am_products_box .am_product_list .am_card_box .am_card .add_to_cart:hover {
+  background-color: #367700;
+  color: #fff;
+  border: 1px solid #3e8a00;
+}
+
+/* line 33, ../ecommeric-website-static/scss/_product_list.scss */
+.am_products_box .am_product_list .am_card_box .am_card .am_card_body {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* line 38, ../ecommeric-website-static/scss/_product_list.scss */
+.am_products_box .am_product_list .am_card_box .am_card .am_card_body .price,
+.am_products_box .am_product_list .am_card_box .am_card .am_card_body .rate,
+.am_products_box .am_product_list .am_card_box .am_card .am_card_body .desc {
+  margin-bottom: 8px;
+}
+
+/* line 44, ../ecommeric-website-static/scss/_product_list.scss */
+.am_products_box .am_product_list .am_card_box .am_card .am_card_body .title {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  word-wrap: none;
+}
+
+@media screen and (max-width: 1300px) {
+  /* line 58, ../ecommeric-website-static/scss/_product_list.scss */
+  .am_products_box .am_product_list .am_card_box {
+    width: 33.33333333333333%;
+  }
+}
+
+@media screen and (max-width: 953px) {
+  /* line 63, ../ecommeric-website-static/scss/_product_list.scss */
+  .am_products_box .am_product_list .am_card_box {
+    width: 50%;
+  }
+}
+
+/* line 67, ../ecommeric-website-static/scss/_product_list.scss */
+.am_products_box .am_product_list .am-product-card {
+  padding: 16px;
+}
+
+/* line 72, ../ecommeric-website-static/scss/_product_list.scss */
+.am_products_box .am_title {
+  font-size: 1rem;
+}
+
+/* line 1, ../ecommeric-website-static/scss/_product_list_4.scss */
+.product_list_4 {
+  font-size: inherit;
+}
+
 /* line 2, ../ecommeric-website-static/scss/_core.scss */
 body {
   margin: 0;
@@ -12630,20 +12725,6 @@ body {
     padding-left: 50px;
     padding-right: 50px;
   }
-}
-
-/* line 36, ../ecommeric-website-static/scss/_core.scss */
-.product-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-/* line 43, ../ecommeric-website-static/scss/_core.scss */
-.product-list .product-card {
-  padding: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,76 @@
+.am_products_box {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .am_product_list{
+        .am_card_box {
+            width: 16.5%;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-top: 10px;
+            
+            .am_card{
+                .add_to_cart{
+                    vertical-align: middle;
+                    text-align: center;
+                    padding: 5px 10px;
+                    background-color: #4ead00;
+                    color: #fff;
+                    outline: none;
+                    border: 1px solid #4ead00;
+                    animation: all .200s ease-in;
+                }
+            
+                .add_to_cart:hover{        
+                    background-color: #367700;
+                    color: #fff;        
+                    border: 1px solid #3e8a00;
+                }
+
+                .am_card_body{
+                    padding-top: 1rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+
+                    .price,
+                    .rate,
+                    .desc {
+                        margin-bottom: 8px;
+                    }
+
+                    .title{
+                        display: inline-block;
+                        margin-bottom: 8px;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        color: black;
+                        text-decoration: none;
+                        word-wrap: none;                        
+                    }
+                }
+            }
+        }
+        
+        @media screen and (max-width:1300px) {
+            .am_card_box{
+                width: 33.33333333333333%;
+            }
+        }
+        @media screen and (max-width:953px) {
+            .am_card_box{
+                width: 50%;
+            }
+        }
+        .am-product-card {
+            padding: 16px;
+        }
+    }
+
+    .am_title{
+        font-size: 1rem;
+    }
+
+}
