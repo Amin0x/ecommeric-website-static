@@ -12599,6 +12599,11 @@ fieldset:disabled .btn {
   font-size: inherit;
 }
 
+/* line 1, ../ecommeric-website-static/scss/_slideshow.scss */
+.am-slideshow {
+  font-size: 1rem;
+}
+
 /* line 1, ../ecommeric-website-static/scss/_product_list.scss */
 .am_products_box {
   margin: 0;
@@ -12689,6 +12694,196 @@ fieldset:disabled .btn {
   font-size: inherit;
 }
 
+/* line 1, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail {
+  display: flex;
+}
+
+/* line 4, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am_prod_media {
+  width: 50%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* line 9, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am_prod_media .img_big {
+  width: 100%;
+}
+
+/* line 12, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am_prod_media .img_big img {
+  width: 100%;
+}
+
+/* line 17, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am_prod_media .img_nav {
+  display: block;
+}
+
+/* line 20, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am_prod_media .img_nav .img_nav_item {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  padding: .5rem;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+/* line 28, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am_prod_media .img_nav .img_nav_item img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+/* line 34, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am_prod_media .img_nav .img_nav_item:hover {
+  border: 1px solid #444444;
+}
+
+/* line 41, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am-details {
+  width: 50%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* .product_title */
+}
+
+/* line 46, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am-details h1, .am_product_detail .am-details .h1 {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+/* line 51, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am-details .discount {
+  padding: .5rem;
+  background-color: red;
+  color: #fff;
+}
+
+/* line 56, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am-details .price {
+  display: inline-block;
+  color: #222222;
+  font-size: 1.5rem;
+  margin-left: .5rem;
+}
+
+/* line 63, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am-details .old_price {
+  display: inline-block;
+  color: red;
+  text-decoration: line-through;
+  margin-left: .5rem;
+}
+
+/* line 69, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am-details .product_rate i {
+  color: #27b161;
+}
+
+/* line 73, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am-details .product_rate span {
+  color: #222222;
+  font-weight: 700;
+}
+
+/* line 77, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am-details .product_rate .review {
+  color: #222222;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+/* line 83, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am-details .add_cart {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #222222;
+  border: 1px solid #656565;
+  border-radius: .3rem;
+  background-color: #ffb039;
+  padding: .7rem 2.5rem;
+  text-decoration: none;
+}
+
+/* line 95, ../ecommeric-website-static/scss/_product_details.scss */
+.am_product_detail .am-details .add_cart:hover {
+  color: #222222;
+  border: 1px solid #656565;
+  background-color: #f89808;
+}
+
+@media screen and (max-width: 867px) {
+  /* line 106, ../ecommeric-website-static/scss/_product_details.scss */
+  .am_product_detail {
+    display: block;
+  }
+  /* line 109, ../ecommeric-website-static/scss/_product_details.scss */
+  .am_product_detail .am-details {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  /* line 113, ../ecommeric-website-static/scss/_product_details.scss */
+  .am_product_detail .am_prod_media {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
+
+/* line 1, ../ecommeric-website-static/scss/_product_spesfication.scss */
+.am-prod-spesfication {
+  font-size: 1rem;
+}
+
+/* line 5, ../ecommeric-website-static/scss/_comments.scss */
+.am-comments .am-comment-item .avatar {
+  background-color: #2f4f4f;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+/* line 10, ../ecommeric-website-static/scss/_comments.scss */
+.am-comments .am-comment-item .avatar img {
+  width: 46px;
+  height: 46px;
+}
+
+/* line 16, ../ecommeric-website-static/scss/_comments.scss */
+.am-comments .am-comment-item .username {
+  margin-right: 1rem;
+  color: #2f4f4f;
+}
+
+/* line 21, ../ecommeric-website-static/scss/_comments.scss */
+.am-comments .am-comment-item .message {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* line 27, ../ecommeric-website-static/scss/_comments.scss */
+.am-comments .am-comment-item .react a {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 0 0;
+  text-decoration: none;
+  color: #2f4f4f;
+}
+
+/* line 35, ../ecommeric-website-static/scss/_comments.scss */
+.am-comments .am-comment-item .react :last-child {
+  color: #f53838;
+}
+
+/* line 40, ../ecommeric-website-static/scss/_comments.scss */
+.am-comments .am-comment-item hr {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
 /* line 2, ../ecommeric-website-static/scss/_core.scss */
 body {
   margin: 0;
@@ -12703,6 +12898,12 @@ body {
 }
 
 /* line 14, ../ecommeric-website-static/scss/_core.scss */
+.am-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* line 18, ../ecommeric-website-static/scss/_core.scss */
 .page_warrper {
   background-color: #fff;
   margin: 0;
@@ -12710,7 +12911,7 @@ body {
 }
 
 @media screen and (max-width: 1900px) {
-  /* line 21, ../ecommeric-website-static/scss/_core.scss */
+  /* line 25, ../ecommeric-website-static/scss/_core.scss */
   .content-warrper {
     max-width: 100%;
     padding-left: 50px;
@@ -12719,7 +12920,7 @@ body {
 }
 
 @media screen and (min-width: 1901px) {
-  /* line 29, ../ecommeric-website-static/scss/_core.scss */
+  /* line 33, ../ecommeric-website-static/scss/_core.scss */
   .content-warrper {
     max-width: 1901px;
     padding-left: 50px;

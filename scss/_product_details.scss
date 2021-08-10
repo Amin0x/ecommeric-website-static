@@ -1,0 +1,126 @@
+.am_product_detail{
+    display: flex;    
+
+    .am_prod_media{
+        width: 50%;       
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        .img_big{
+            width: 100%;
+            
+            img{
+                width: 100%;
+            }
+        }
+
+        .img_nav{
+            display: block;
+            
+            .img_nav_item{
+                display: inline-block;
+                width: 80px;
+                height: 80px;
+                padding: .5rem;
+                border: 1px solid #ccc;
+                overflow: hidden;               
+
+                img{
+                    max-width: 80px;   
+                    max-height: 80px; 
+                }
+            }
+
+            .img_nav_item:hover{
+                border: 1px solid rgb(68, 68, 68);
+            }
+        }
+    }
+
+   
+    .am-details{  
+        width: 50%;      
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        /* .product_title */ h1{
+            margin-bottom: 1rem;
+            color: black;
+        }
+
+        .availability{
+            color: #27b161;
+            font-size: 0.8rem;
+        }
+        .discount{
+            padding: .5rem;
+            background-color: red;
+            color: #fff;
+        }
+        .price{
+            display: inline-block;
+            color: #222222;
+            font-size: 1.5rem;
+            margin-left: .5rem;
+        }
+
+        .old_price{
+            display: inline-block;            
+            color: red;
+            text-decoration: line-through;
+            margin-left: .5rem;            
+        }
+        .product_rate i{
+            color: #27b161;
+        }
+
+        .product_rate span{
+            color: #222222;
+            font-weight: 700;
+        }
+        .product_rate .review{
+            color: #222222;
+            font-size: .8rem;
+            font-weight: 400;
+        }
+
+        .add_cart{
+            display: inline-block;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #222222;
+            border: 1px solid #656565;
+            border-radius: .3rem;
+            background-color: #ffb039;
+            padding: .7rem 2.5rem;
+            text-decoration: none;
+        }
+
+        .add_cart:hover{           
+            color: #222222;
+            border: 1px solid #656565;            
+            background-color: #f89808;            
+        }
+    }
+
+    
+}
+
+@media screen and (max-width:867px) {
+    .am_product_detail{
+        display: block;
+
+        .am-details{
+            width: 100%;
+            margin-top: 1.5rem;
+        }
+        .am_prod_media{
+            width: 100%;
+            margin-top: 1.5rem;
+        }
+    }
+
+    
+}
+
+
