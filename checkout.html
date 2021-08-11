@@ -5,100 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="lib/fontawesome-free-5.15.3-web/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="am-page-warrper">
-        <header role="navigation">
-            <nav class="top-nav d-flex">
-                <div class="search d-none"><input type="text" id="search" placeholder="بحث"></div>
-                <div class="mobile-ic d-block d-xl-none"><i class="fa fa-list" aria-hidden="true"></i></div>
-                <div class="logo"><a href="index.html"><img src="assets/imgs/ameen_logo_trans_500.png" alt=""  height="80px"></a></div>
-                <div class="main-menu" role="menu">
-                    <a class="main-menu-item d-inline-block" href="index.html" role="menuitem">الرئيسية</a>
-                    <a class="main-menu-item d-inline-block" href="products.html" role="menuitem">المنتجات</a>
-                    <a class="main-menu-item d-inline-block" href="about.html" role="menuitem">اتصل بنا</a>
-                </div>
-                <div><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div>
-                <div class="auth-menu">
-                    <div class="main-manu-item d-inline-block"><a name="" id="" class="btn btn-primary" href="register.html" role="button">تسجيل</a></div>
-                    <div class="main-manu-item d-inline-block"><a name="" id="" class="btn btn-primary" href="login.html">دخول</a></div>
-                </div>
-            </nav>
-            <nav class="sec-nav">
-        
-            </nav>
-        </header>
-    
+    <div class="am-page-warrper">        
         <main class="am-content-warrper container" dir="rtl">
             <div class="row">
-                <section class="am-billing-details col-6">
-                    <h4>عنوان الشحن</h4>
-                    <div class="form-group">
-                        <label for="">الاسم بالكامل</label>
-                        <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-                    </div>
-                    <div class="form-group">
-                      <label for="">رقم الهاتف</label>
-                      <input type="number" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-                    </div>
-                    <div class="form-group">
-                      <label for="">رقم الهاتف اخر مرجعي</label>
-                      <input type="number" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-                    </div>
-                    <div class="form-group">
-                      <label for="">الايميل</label>
-                      <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-                    </div>
-                    <div class="form-group">
-                      <label for="">العنوان</label>
-                      <input type="text" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-                    </div>
-                    <hr>
-                    <h4>طريقة الدفع</h4>
-                    <div style="border: 1px solid rgb(41, 48, 156); border-radius: 4px;">
-                        <div class="">
-                            <label class="" style="margin-right: 1rem;">
-                                <input class="" type="radio" name="" id="" value="checkedValue" style="margin-top: 3px;">
-                                بطاقة بنكية
-                            </label>
-                            <img src="assets/imgs/visa.png" alt="">
+                <section class="am-billing-details col-xl-6 col-md-12">
+                    <div class="shipping card p-3">
+                        <h4 style="padding: 0.5rem;">عنوان الشحن</h4>
+                        <div class="form-group mt-2">
+                            <label for="" style="color: #3d3d3d;">الاسم بالكامل</label>
+                            <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+                        </div>
+                        <div class="form-group mt-2">
+                          <label for="" style="color: #3d3d3d;">رقم الهاتف</label>
+                          <input type="number" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+                        </div>
+                        <div class="form-group mt-2">
+                          <label for="" style="color: #3d3d3d;">رقم الهاتف اخر مرجعي</label>
+                          <input type="number" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+                        </div>
+                        <div class="form-group mt-2">
+                          <label for="" style="color: #3d3d3d;">الايميل</label>
+                          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+                        </div>
+                        <div class="form-group mt-2">
+                          <label for="" style="color: #3d3d3d;">العنوان</label>
+                          <input type="text" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
                         </div>
                     </div>
-                    <div class="form-group">
-                      <label for="">رقم بطاقة الدفع</label>
-                      <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <label for="">تاريخ الانتهاء</label>
-                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                   
+                    <div class="payment-method p-3 mt-3" style="background-color: #d7edff;">
+                        <h4>طريقة الدفع</h4>
+                        <div style="border: 1px solid rgb(41, 48, 156); border-radius: 4px; margin-top: 1rem;">
+                            <div class="">
+                                <label class="" style="margin-right: 1rem;">
+                                    <input class="" type="radio" name="" id="" value="checkedValue" style="margin-top: 3px;">
+                                    بطاقة بنكية
+                                </label>
+                                <img src="assets/imgs/visa.png" alt="">
+                            </div>
                         </div>
-                        <div class="col-3">
-                            <label for=""></label>
-                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                        <div class="form-group mt-2">
+                          <label for="">رقم بطاقة الدفع</label>
+                          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                         </div>
-                        <div class="col-3">
-                            <label for="">الرقم السري</label>
-                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                        <div class="row mt-2">
+                            <div class="col-6">
+                                <label for="">تاريخ الانتهاء</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                            </div>
+                            <div class="col-3">
+                                <label for=""></label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                            </div>
+                            <div class="col-3">
+                                <label for="">الرقم السري</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                            </div>
                         </div>
-                    </div>
-                    <div  style="border: 1px solid rgb(41, 48, 156); border-radius: 4px;">
-                
-                            <label for="">
-                                <input type="radio" name="" id="">
-                                باي بال
-                            </label>
-                
-                        <img src="assets/imgs/paypal_horizontal_large.png" alt="">
+                        <div  style="border: 1px solid rgb(130, 130, 134); border-radius: 4px; margin-top: 1rem;">
+                                <label for="">
+                                    <input type="radio" name="" id="">
+                                    باي بال
+                                </label>
+                            <img src="assets/imgs/paypal_horizontal_large.png" alt="">
+                        </div>
                     </div>
                 </section>
                 
                
-                <section class="col-6">
+                <section class="col-md-12 col-xl-6 mt-3 mt-xl-0">
                     <div class="card">
                         <div class="p-3">
-                            <h4>بيانات الطلب</h4>
+                            <h4>تفاصيل الطلب</h4>
                             <hr>
                             <div class="d-flex">
                                 <div class="am-title" style="width: 50%;"><p>كمبيوتر كامل</p></div>
@@ -128,39 +110,13 @@
                         </div>
                     </div>
                 </section>
-                <section class="col-12">
+                <section class="col-12 mt-2">
                     <p class="m-0">بضغطك علي هذا الزر تعتبر موافق علي <a href="#">الشروط والاحكام</a></p>
-                    <div><button type="button" name="" id="" class="btn btn-primary btn-block">الدفع الان</button></div>
+                    <div class="mt-2"><a type="button" name="paybtn" id="paybtn" class="btn btn-primary btn-block">الدفع الان</a></div>
                 </section>
             </div>
         </main>
-
-        <footer class="bg-dark mt-5 p-4 pb-0">
-            <div class="d-flex justify-content-center">
-                <ul class="list-unstyled">
-                    <li><a class="text-light" href="#">lorem lorem</a></li>
-                    <li><a class="text-light" href="#">looop</a></li>
-                    <li><a class="text-light" href="#">doop</a></li>
-                </ul>
-                <ul class="list-unstyled">
-                    <li><a class="text-light" href="">المنتجات</a></li>
-                    <li><a class="text-light" href="">الاقسام</a></li>
-                    <li><a class="text-light" href="#">العروض</a></li>
-                </ul>
-                <ul class="list-unstyled">
-                    <li><a class="text-light" href="#">عن الشركة</a></li>
-                    <li><a class="text-light" href="#">اتصل بنا</a></li>
-                    <li><a class="text-light" href="">وظائف شاغرة</a></li>
-                    <li><a class="text-light" href="">الاخبار</a></li>
-                </ul>
-                <ul class="list-unstyled">
-                    <li><a class="text-light" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a class="text-light" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a class="text-light" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                </ul> text-left
-            </div>
-            <p class="text-light text-center">جميع الحقوق محفوظة &COPY; <a class="text-light" href="#">amin</a> 2021</p>
-        </footer>
+        
     </div>
 </body>
 </html>
