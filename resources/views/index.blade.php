@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/vendors/fontawesome-free-5.15.3-web/css/all.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendors/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-5.0.2/dist/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/vendors/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="am-page-warrper">
@@ -420,7 +421,8 @@
 
         @include("inc.footer")
     </div>
-    <script src="assets/css/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
-    <script src="assets/css/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+
+    <script src="assets/vendors/bootstrap-5.0.2/dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendors/bootstrap-5.0.2/dist/js/bootstrap.js"></script>
 </body>
 </html>
